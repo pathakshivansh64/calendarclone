@@ -13,12 +13,12 @@ export default function CalendarHeader({ currentDate, onPrev, onNext, onJump }) 
 
   const toggleMonth = () => {
     setMonthDropdown(prev => !prev);
-    setYearDropdown(false); // Close year dropdown
+    setYearDropdown(false); 
   };
 
   const toggleYear = () => {
     setYearDropdown(prev => !prev);
-    setMonthDropdown(false); // Close month dropdown
+    setMonthDropdown(false); 
   };
 
   const handleMonthSelect = (index) => {
